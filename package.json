@@ -1,0 +1,20 @@
+{
+  "name": "react-static-site-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rahulballal/react-static-site-boilerplate.git",
+  "author": "Rahul Ballal <rahulballal@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "poi": "^12.6.5",
+    "prettier": "^1.17.0",
+    "react-testing-library": "^6.1.2",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
