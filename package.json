@@ -6,14 +6,15 @@
   "author": "Rahul Ballal <rahulballal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "clean":"rimraf dist/",
-    "start": "poi src/index.html --serve --open",
+    "clean": "rimraf dist/",
+    "serve": "poi src/index.html --serve --open",
     "test": "jest",
     "lint:check": "standard",
     "lint:fix": "standard --fix"
   },
   "devDependencies": {
     "babel-jest": "^24.7.1",
+    "babel-plugin-emotion": "^10.0.9",
     "jest": "^24.7.1",
     "poi": "^12.6.5",
     "react-testing-library": "^6.1.2",
@@ -22,6 +23,8 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
@@ -35,6 +38,9 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
+    ],
+    "plugins": [
+      "emotion"
     ]
   },
   "standard": {
