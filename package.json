@@ -12,7 +12,9 @@
     "lint:check": "standard",
     "lint:fix": "prettier-standard 'src/**/*.js'",
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:build": "docz build",
+    "build:dev": "poi src/index.html",
+    "build:prod": "poi src/index.html --prod"
   },
   "devDependencies": {
     "babel-jest": "^24.7.1",
