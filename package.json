@@ -10,11 +10,15 @@
     "serve": "poi src/index.html --serve --open",
     "test": "jest",
     "lint:check": "standard",
-    "lint:fix": "prettier-standard 'src/**/*.js'"
+    "lint:fix": "prettier-standard 'src/**/*.js'",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "devDependencies": {
     "babel-jest": "^24.7.1",
     "babel-plugin-emotion": "^10.0.9",
+    "docz": "^1.0.4",
+    "docz-theme-default": "^1.0.4",
     "jest": "^24.7.1",
     "poi": "^12.6.5",
     "prettier": "^1.17.0",

@@ -1,0 +1,24 @@
+---
+name: Base Button
+---
+import { Playground, Props } from 'docz'
+import { ButtonBase } from '.'
+
+# Base Button
+
+## Prop List
+
+<Props of={ButtonBase} />
+
+---
+
+## Base button default
+
+<Playground>
+  <ButtonBase>Default</ButtonBase>
+</Playground>
+
+## Base button with overrides
+<Playground>
+  <ButtonBase style={{ background: 'orange' }}> Orange Button </ButtonBase>
+</Playground>
